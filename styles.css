@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage-body {
+    background-image: url('./homepagebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.wishes-body {
+    background-image: url('./wishespagebg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.songs-body{
+    background-color:rgb(146, 28, 21);
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgb(210, 153, 46);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    transition: background-color 0.3s ease;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgb(113, 78, 19);
+}
+
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 60px;
+    color: rgb(210, 153, 46);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    font-weight: normal;
+    color: rgb(210, 153, 46); 
+    font-size: 24px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+p {
+    font-size: 18px;
+    color: rgb(210, 153, 46);
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a button {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    background-color: rgb(210, 153, 46);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+a button:hover {
+    background-color: rgb(113, 78, 19);
+    transform: scale(1.1);
+}
+
+a button:active {
+    transform: scale(1.05);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around; 
+    gap: 0px; 
+    margin: 0px;
+    margin-top:70px;
+}
+
+.card {
+    width: 600px; 
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffefe0;
+    transition: all 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+#paraBox {
+    margin-bottom: 20px;
+}
+
