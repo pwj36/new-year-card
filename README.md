@@ -7,5 +7,5 @@ View live site through this link: https://pwj36.github.io/new-year-card/homepage
 - CSS
 - Visual Studio Code
 ## 🛠️ Features
-- **New Year Wishes:** Personalized and festive messages for a warm greeting.
+- **New Year Wishes:** Festive messages for a warm greeting.
 - **Embedded Song:** Play New Year-themed songs.
